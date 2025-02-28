@@ -24,5 +24,5 @@ s = """def swap_test():
      swap(arr,0,1)
 """
 print((timeit.timeit(stmt=s,number=10)))
-
+print()
 
